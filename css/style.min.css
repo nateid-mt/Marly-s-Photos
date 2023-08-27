@@ -50,7 +50,7 @@ body {
     margin: 1.414em 0 .5em;
     line-height: 1.2;
     font-weight: 300;
-    color: #4a525d
+    color: #f9fafb
 }
 
 .page-title h1,h1 {
@@ -96,7 +96,8 @@ a:focus,a:hover {
     width: 100%;
     z-index: 12;
     position: relative;
-    background: #542f2fac;
+    background: repeating-conic-gradient(#c3c8c2 0%, #344934 10%, #5b4747 10%, #4c2929 20%, 
+    #5b4747 20%, #4c2929 30%);
     top: 0
 }
 
@@ -239,7 +240,7 @@ a:focus,a:hover {
 }
 
 .probootstrap-mobile-menu-active .probootstrap-main-nav li a:hover {
-    color: #fff
+    color: #5068A9
 }
 
 .probootstrap-main-nav li.active a,.probootstrap-main-nav li.active a:hover {
